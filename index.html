@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="section1" id="sec1">
+        <h1 class="headings1">Hello Sir ...!</h1>
+        <h1 class="headings1">JavaScript Assignment</h1>
+
+        <div class="btnDiv1">
+            <button class="btns1" onclick="changeBgColor()">Background Color Change</button>
+            <button class="btns1" onclick="changeTxtColor()">Text Color Change</button>
+        </div>
+    </section>
+
+
+    <section class="section2">
+        <div class="imgDiv1">
+            <img src="./images/image1.jpeg" class="hide" id="img1">
+        </div>
+        <div class="btnDiv2">
+            <button onclick="showImage()">Show Image</button>
+            <button onclick="bigImage()">Big Image</button>
+            <button onclick="smallImage()">Small Image</button>
+            <button onclick="hideImage()">Hide Image</button>
+        </div>
+    </section>
+
+
+    <section class="section3">
+        <div class="imgDiv2">
+            <img src="./images/bulbOff.png" onmouseover="bulbOn(this)" onmouseout="bulbOff(this)">
+        </div>
+    </section>
+
+    
+    <section class="section4">
+        <p class="paras">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores neque sit maxime quo, velit aut quisquam
+            atque commodi delectus quidem.
+        </p>
+        <p class="paras">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores neque sit maxime quo, velit aut quisquam
+            atque commodi delectus quidem.
+        </p>
+        <p class="paras">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores neque sit maxime quo, velit aut quisquam
+            atque commodi delectus quidem.
+        </p>
+        <p class="paras">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores neque sit maxime quo, velit aut quisquam
+            atque commodi delectus quidem.
+        </p>
+
+        <div class="btnDiv3">
+            <button onclick="changeParaColor()">Change Paragraph Color</button>
+        </div>
+    </section>
+</body>
+
+<script src="app.js"></script>
+
+</html>
